@@ -7,6 +7,7 @@
 # BeautifulSoup的使用，解析html_str
 import lxml
 from bs4 import BeautifulSoup
+
 html_str = """
 <html><head><title>The Dormouse's story</title></head>
 <body>
@@ -18,5 +19,19 @@ html_str = """
 and they lived at the bottle of a well.</p>
 <p class="story">...</p>
 """
-soup = BeautifulSoup(html_str,'lxml',from_encoding='utf-8')
+soup = BeautifulSoup(html_str, 'lxml', from_encoding='utf-8')
 print soup.prettify()
+print "------title-------"
+print soup.name
+print soup.title
+
+print "------  p  -------"
+print soup.p
+
+print "------  a  -------"
+print soup.a
+
+# tag修改标签属性，<title>修改为</mytitle>
+soup.title.name = 'mytitle'
+print soup.title
+print soup.mytitle
