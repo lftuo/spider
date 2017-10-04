@@ -4,7 +4,7 @@
 # @Time : 2017/10/4 上午8:53
 # @File : StringsTest.py
 # @Software : PyCharm
-# .string&.string 用法
+# .string&.string&.stripped_strings 用法
 import bs4
 from bs4 import BeautifulSoup
 
