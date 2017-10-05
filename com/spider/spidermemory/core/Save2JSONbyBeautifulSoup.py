@@ -2,9 +2,9 @@
 # -*- coding:utf8 -*-
 # @Author : MrTuo
 # @Time : 2017/10/4 下午9:04
-# @File : Save2Json.py
+# @File : Save2JSONbyBeautifulSoup.py
 # @Software : PyCharm
-# 存储为json格式，解析盗墓笔记首页'http://seputu.com/'为例
+# 使用BeautifulSoup解析网页，存储为json格式，解析盗墓笔记首页'http://seputu.com/'为例
 import json
 import requests
 import sys
