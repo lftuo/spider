@@ -17,6 +17,6 @@ elem = driver.find_element_by_name("wd")
 elem.clear()
 elem.send_keys(u"性感美女")
 elem.send_keys(Keys.RETURN)
-time.sleep(3)
+time.sleep(13)
 assert u"性感美女." not in driver.page_source
 driver.close()
