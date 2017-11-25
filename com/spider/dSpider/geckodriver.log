@@ -1,0 +1,16 @@
+1511270194247	geckodriver	INFO	geckodriver 0.19.1
+1511270194254	geckodriver	INFO	Listening on 127.0.0.1:50857
+1511270197333	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/wx/jx279q6d7_5g4xywv2ph44c00000gn/T/rust_mozprofile.AmmcQyLTW5FB"
+1511270197852	Marionette	INFO	Enabled via --marionette
+2017-11-21 21:16:38.803 plugin-container[597:56298] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa53f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1511270199603	Marionette	INFO	Listening on port 50865
+1511270200606	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511270200667	Marionette	DEBUG	Register listener.js for window 2147483649
+1511270200685	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511270200786	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511270200786	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1511270201329	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://hotel.qunar.com/"
+1511270201602	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483662"
+1511270202124	Marionette	DEBUG	Received DOM event "pageshow" for "http://hotel.qunar.com/"
+JavaScript warning: http://static.mediav.com/mv.js, line 1: unreachable code after return statement
