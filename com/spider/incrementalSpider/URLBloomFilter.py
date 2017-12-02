@@ -15,7 +15,7 @@ class URLBloomFilter(RFPDupeFilter):
     """根据urlhash_bloom过滤"""
     def __init__(self,path=None):
         self.urls_sbf = ScalableBloomFilter(mode=ScalableBloomFilter.SMALL_SET_GROWTH)
-        RFPDupeFilter.__init__(self,path)
+        RFPDupeFilter.__init__(self, path)
 
     def request_seen(self, request):
         fp = hashlib.sha1()

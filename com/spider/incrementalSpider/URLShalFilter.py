@@ -13,7 +13,7 @@ class URLShalFilter(RFPDupeFilter):
     """根据urlshal过滤"""
     def __init__(self,path = None):
         self.url_seen = set()
-        RFPDupeFilter.__init__(self,path)
+        RFPDupeFilter.__init__(self, path)
 
     def request_seen(self, request):
         fp = hashlib.sha1()
